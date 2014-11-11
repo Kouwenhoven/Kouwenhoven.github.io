@@ -1,0 +1,46 @@
+html {
+color: black;
+background: transparent;
+    font-size: 12pt;
+    
+}
+
+
+
+.container {
+
+
+}
+
+li{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    list-style: none; 
+    
+    
+}
+.navbar {
+    clear: both;
+
+    
+}
+main {
+    float: left;
+    clear: left;
+}
+
+section {
+float: left;
+clear: left;
+}
+
+a[href$=".html"] { 
+    display:none;
+}
+
+a[href^="http://"] {
+    display:inline;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }

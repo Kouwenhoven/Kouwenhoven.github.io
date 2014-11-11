@@ -1,0 +1,82 @@
+html {
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+
+Body {
+    margin: 50px;
+    padding: 25px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+.container {
+}
+
+#over-white {
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 0px;
+  color: black;
+}
+
+address {
+    margin-left: 25px;
+    padding: 5px;
+}
+    
+nav li{
+    float: left;
+    padding: 25px;
+    margin-left: 25px;
+    list-style: none; 
+    
+}
+
+p <em> {
+    
+    text-align: right
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    list-style: none; 
+}
+
+h1{
+text-align: center;
+}
+h1, h2, h3, {
+    position: relative;
+    margin: 0 auto;
+}
+   
+}
+article {
+    position: relative;
+}
+    
+article ul {
+
+list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar {
+    clear: both;
+
+    
+}
+main {
+    float: left;
+    clear: left;
+}
+
+section {
+float: left;
+clear: left;
+}
