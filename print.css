@@ -1,35 +1,39 @@
-html {
+
+* {
 color: black;
 background: transparent;
-    font-size: 12pt;
-    
+font-size: 12pt;
+font-family: serif;
 }
 
 
-
-.container {
-
-
+h1, h2, h3, h4 {
+  font-family: sans-serif;
 }
 
-li{
-    float: left;
-    padding: 5px;
-    margin: 5px;
-    list-style: none; 
-    
-    
-}
+h1 {
+text-align: center;}
+
+address {
+text-align: center;}
+
 .navbar {
-    clear: both;
-
-    
+    display: none;
 }
+
 main {
     float: left;
     clear: left;
 }
 
+em {
+    float: right;
+}
+
+hr {
+ display: none;
+
+}
 section {
 float: left;
 clear: left;
@@ -40,7 +44,7 @@ a[href$=".html"] {
 }
 
 a[href^="http://"] {
-    display:inline;
+    display: left;
 }
 
 a[href^="http://"]:after { content: " (" attr(href) ") "; }
