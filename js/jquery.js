@@ -1,0 +1,120 @@
+$(document).ready(function(){
+  $(".wander").hide();
+  $(".android").hide();
+  $(".women").hide();
+  $(".logos").hide();
+  $(".saves").hide();
+  $(".colonoscopy").hide();
+  $(".magazine").hide();
+  $(".contact").hide();
+  
+  $("#wander").click(function(){
+    $(".work-container").show();
+    $(".wander").show();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#afghan").click(function(){
+    $(".work-container").show();
+    $(".afghan").show();
+    $(".wander").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#android").click(function(){
+    $(".work-container").show();
+    $(".android").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#women").click(function(){
+    $(".work-container").show();
+    $(".women").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#logos").click(function(){
+    $(".work-container").show();
+    $(".logos").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#saves").click(function(){
+    $(".work-container").show();
+    $(".saves").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".colonoscopy").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#colonoscopy").click(function(){
+    $(".work-container").show();
+    $(".colonoscopy").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".magazine").hide();
+      $(".contact").hide();
+
+  });
+  $("#magazine").click(function(){
+    $(".work-container").show();
+    $(".magazine").show();
+    $(".wander").hide();
+    $(".afghan").hide();
+    $(".android").hide();
+    $(".women").hide();
+    $(".logos").hide();
+    $(".saves").hide();
+    $(".colonoscopy").hide();
+      $(".contact").hide();
+
+  });
+  
+  $("#contact").click(function(){
+    $(".work-container").hide();
+    $(".contact").show();
+  });
+});
